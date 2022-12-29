@@ -1,0 +1,26 @@
+.container{
+   margin-top: 10%;
+   text-align: center;
+   background: rgb(2,0,36);
+   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,67,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.titulo{
+    color: white;
+}
+
+.btn{
+    width: 200px;
+    margin-left: 35%;
+    
+}
+
+.dado{
+    background-color: black;
+    color: white;
+    font-size: 200px;
+    height: 300px;
+    width: 300px;
+    margin-left: 30%;
+    border-radius: 20px;
+}
