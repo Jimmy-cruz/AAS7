@@ -1,13 +1,17 @@
 <!-- <p>dado works!</p> -->
+<!-- maquetacion de dado -->
 <div class="container border">
     <div class="row">
+        <!-- titulo -->
         <h1 class="titulo">LANZA EL DADO</h1>
     </div>
     <div class="row">
+        <!-- dado -->
         <div class="dado mt-5">{{resultado}}</div>
     </div>
     <div class="row mt-5">
-        <button class="btn btn-danger">LANZAR</button>
+        <!-- boton de lanzar -->
+        <button class="btn btn-danger" (click)="lanzar()">LANZAR</button>
     </div>
 
 </div>
